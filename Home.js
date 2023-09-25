@@ -6,9 +6,10 @@ const Home = ({navigation}) => {
     <View>
       <Button title="Bai7" onPress={()=>{
         navigation.navigate("Bai7")
-      }}/>
-    </View>
+      }} />
+    </View>  
   )
 }
+
 
 export default Home 
