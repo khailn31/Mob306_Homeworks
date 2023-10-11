@@ -33,16 +33,16 @@ const Bai7 = () => {
                     renderItem={({ item }) => (
                         <View style={{
                             flexDirection: 'row', alignItems: 'center', backgroundColor: 'white',
-                            borderRadius: 10, 
+                            borderRadius: 12, 
                             marginVertical: 5,
                             padding:8
                         }}>
                             <Image style={{ width: 50, height: 50, borderRadius: 8 }} source={{ uri: item.url }} />
-                            <View style={{ flexDirection: 'column', marginLeft: 10 ,}}>
+                            <View style={{ flexDirection: 'column', marginLeft: 10 }}>
                                 <Text >
                                     id:{item.id}
                                 </Text>
-                                <Text >
+                                <Text  >
                                     title:{item.title}
                                 </Text>
                             </View>

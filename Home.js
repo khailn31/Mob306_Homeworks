@@ -7,6 +7,9 @@ const Home = ({navigation}) => {
       <Button title="Bai7" onPress={()=>{
         navigation.navigate("Bai7")
       }} />
+        <Button title="bai14" onPress={()=>{
+        navigation.navigate("bai14")
+      }} />
     </View>  
   )
 }
